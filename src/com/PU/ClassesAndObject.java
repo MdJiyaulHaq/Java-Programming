@@ -21,6 +21,8 @@ public class ClassesAndObject {
         obj2.name = "Mausam";
         obj2.roll_no = 16;
         System.out.println(obj2.name + "\n" + obj2.roll_no);
+
+        // initialize through constructor
         Student obj3 = new Student();
         obj3.put(14, "Mimamsa");
         obj3.get();
