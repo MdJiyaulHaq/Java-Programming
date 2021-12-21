@@ -6,8 +6,8 @@ public class data_types<name> {
         // variables are same as like that of cpp
         String name = "Md";
         char character = 'a';
-        int integer= 10;
-        float flt= (float) 3.2;
+        int integer = 10;
+        float flt = (float) 3.2;
         boolean bl = false;
         System.out.println(name);
         System.out.println(character);
@@ -16,7 +16,7 @@ public class data_types<name> {
         System.out.println(false);
 
         // if you don't want an integer value to change
-        final int x=2;
+        final int x = 2;
         // x=4  changing this value will throw an error
 
     }

@@ -3,11 +3,13 @@ package com.PU;
 class Student {
     int roll_no = 15;
     String name = "Md";
-    void put(int roll_no, String name){
+
+    void put(int roll_no, String name) {
         this.roll_no = roll_no;
-        this.name= name;
+        this.name = name;
     }
-    void get(){
+
+    void get() {
         System.out.println(name + "\n" + roll_no);
     }
 }
@@ -16,7 +18,7 @@ public class ClassesAndObject {
 
     public static void main(String[] args) {
         Student obj1 = new Student();
-        System.out.println(obj1.name +"\n" + obj1.roll_no);
+        System.out.println(obj1.name + "\n" + obj1.roll_no);
         Student obj2 = new Student();
         obj2.name = "Mausam";
         obj2.roll_no = 16;

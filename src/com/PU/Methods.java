@@ -1,8 +1,7 @@
 package com.PU;
 
 public class Methods {
-    static void myMethod()
-    {
+    static void myMethod() {
         System.out.println("i am a method named myMethod.");
     }
 
