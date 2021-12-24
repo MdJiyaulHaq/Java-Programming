@@ -1,6 +1,6 @@
 package com.PU;
 
-class Student {
+class Student1 {
     int roll_no = 15;
     String name = "Md";
 
@@ -17,15 +17,15 @@ class Student {
 public class ClassesAndObject {
 
     public static void main(String[] args) {
-        Student obj1 = new Student();
+        Student1 obj1 = new Student1();
         System.out.println(obj1.name + "\n" + obj1.roll_no);
-        Student obj2 = new Student();
+        Student1 obj2 = new Student1();
         obj2.name = "Mausam";
         obj2.roll_no = 16;
         System.out.println(obj2.name + "\n" + obj2.roll_no);
 
         // initialize through constructor
-        Student obj3 = new Student();
+        Student1 obj3 = new Student1();
         obj3.put(14, "Mimamsa");
         obj3.get();
     }
