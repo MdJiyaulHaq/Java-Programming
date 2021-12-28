@@ -1,4 +1,4 @@
-package com.PU;
+package com.Basics;
 
 public class operators {
     public static void main(String[] args) {

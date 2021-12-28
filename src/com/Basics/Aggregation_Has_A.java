@@ -1,4 +1,4 @@
-package com.PU;
+package com.Basics;
 
 // if the relation is strong then it will be called
 // Composition rather than Aggregation.

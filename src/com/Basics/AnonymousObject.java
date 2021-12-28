@@ -1,4 +1,4 @@
-package com.PU;
+package com.Basics;
 
 public class AnonymousObject {
     public static void main(String[] args) {

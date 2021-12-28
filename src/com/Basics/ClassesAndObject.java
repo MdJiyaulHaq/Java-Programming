@@ -1,4 +1,4 @@
-package com.PU;
+package com.Basics;
 
 class Student1 {
     int roll_no = 15;

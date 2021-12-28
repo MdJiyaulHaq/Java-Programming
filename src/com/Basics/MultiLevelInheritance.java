@@ -1,4 +1,4 @@
-package com.PU;
+package com.Basics;
 
 public class MultiLevelInheritance {
     public static void main(String[] args) {
