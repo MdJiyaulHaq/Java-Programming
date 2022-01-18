@@ -1,4 +1,4 @@
-package com.KU;
+package com.Advance;
 
 public class ThrowKeyword {
     public static void main(String[] args) {
