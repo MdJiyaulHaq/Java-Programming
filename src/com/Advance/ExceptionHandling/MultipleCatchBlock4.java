@@ -1,17 +1,17 @@
-package com.Advance;
+package com.Advance.ExceptionHandling;
 
-public class MultipleCatchBlock2 {
+public class MultipleCatchBlock4 {
     public static void main(String[] args) {
-        int[] arr = new int[4];
+        String s = null;
         try {
-            System.out.println(arr[6]);
+            System.out.println(s.length());
         }
-        // the handling of exceptions should be in most specific to most general order.
+// but if no corresponding catch block is found then the most general exception is thrown
         catch (ArithmeticException e) {
             System.out.println("arithmetic exception occurs");
             System.out.println(e);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("array exception occur");
+            System.out.println("array exception occurs");
             System.out.println(e);
         } catch (Exception e) {
             System.out.println("parent exception occurs.");
@@ -20,3 +20,4 @@ public class MultipleCatchBlock2 {
         System.out.println("rest of the code.");
     }
 }
+// remember that if order of exception is not maintained then the compile time error will be thrown.

@@ -1,4 +1,4 @@
-package com.Advance;
+package com.Advance.ExceptionHandling;
 
 public class NestedTryBlock {
     public static void main(String[] args) {

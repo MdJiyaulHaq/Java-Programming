@@ -1,4 +1,4 @@
-package com.Advance;
+package com.Advance.ExceptionHandling;
 
 public class MultipleCatchBlock {
     public static void main(String[] args) {
