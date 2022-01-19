@@ -1,8 +1,8 @@
 package com.Basics.ExceptionHandling;
 
-public class ThrowKeyword {
+public class ThrowKeyword2 {
 
-    // throwing an unchecked exception
+    // throwing user defined exception
 
     public static void validate(int age) {
         if (age < 18) {
