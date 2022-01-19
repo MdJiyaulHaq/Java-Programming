@@ -1,4 +1,4 @@
-package com.Advance.ExceptionHandling;
+package com.Basics.ExceptionHandling;
 
 public class TryCatch4 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.Advance.ExceptionHandling;
+package com.Basics.ExceptionHandling;
 
-public class TryCatch3 {
+public class TryCatch2 {
     public static void main(String[] args) {
         int a = 3, b = 0;
         try {
@@ -8,8 +8,9 @@ public class TryCatch3 {
         }
         // handling the exception using Exception class
         catch (Exception e) {
-            System.out.println(a / (b + 1));
-            // exception can even be handled in catch block.
+            System.out.println("Division by zero is not allowed.");
+            // custom message can also be displayed.
+            System.out.println(e);
         }
         System.out.println("rest of the code.");
     }

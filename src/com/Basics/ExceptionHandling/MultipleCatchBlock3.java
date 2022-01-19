@@ -1,12 +1,14 @@
-package com.Advance.ExceptionHandling;
+package com.Basics.ExceptionHandling;
 
-public class MultipleCatchBlock4 {
+public class MultipleCatchBlock3 {
     public static void main(String[] args) {
-        String s = null;
+        int[] arr = new int[4];
         try {
-            System.out.println(s.length());
+            arr[3] = 3 / 0;
+            System.out.println(arr[9]);
         }
-// but if no corresponding catch block is found then the most general exception is thrown
+        // only one exception can occur and corresponding catch block is executed.
+
         catch (ArithmeticException e) {
             System.out.println("arithmetic exception occurs");
             System.out.println(e);
@@ -20,4 +22,3 @@ public class MultipleCatchBlock4 {
         System.out.println("rest of the code.");
     }
 }
-// remember that if order of exception is not maintained then the compile time error will be thrown.
