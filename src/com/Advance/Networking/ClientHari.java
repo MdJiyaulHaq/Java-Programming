@@ -3,7 +3,7 @@ package com.Advance.Networking;
 import java.io.DataOutputStream;
 import java.net.Socket;
 
-public class Client {
+public class ClientHari {
     public static void main(String[] args) {
         try {
             Socket server = new Socket("localhost", 6666);
