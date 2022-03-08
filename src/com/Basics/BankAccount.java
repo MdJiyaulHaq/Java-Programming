@@ -7,7 +7,7 @@ public class BankAccount {
 
     public static void main(String[] args) {
         BankAccount A1 = new BankAccount();
-        A1.put_account_info(78692, "Md", 78692);
+        A1.put_account_info(3853959, "Md", 78692);
         A1.Account_info();
         A1.balance_inquiry();
         A1.deposit(45);
