@@ -45,7 +45,7 @@ public class FontChanger extends Frame implements ActionListener {
         if (ae.getSource() == c1) {
             String s1 = t1.getText();
             Font f1 = new Font("Bold", Font.BOLD, 22);
-            t2.setFont(f1);
+            t1.setFont(f1);
         } else if (ae.getSource() == c2) {
             String s2 = t2.getText();
             Font f2 = new Font("Italic", Font.ITALIC, 22);
