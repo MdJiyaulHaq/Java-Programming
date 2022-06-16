@@ -12,26 +12,23 @@ public class MultiLevelInheritance {
 }
 
 class GrandFather {
-    String tea;
 
-    void display(String tea) {
-        System.out.println("Grandfather loved:" + tea);
+    void display(String Tea) {
+        System.out.println("Grandfather loved:" + Tea);
     }
 
 }
 
 class Father extends GrandFather {
-    String type;
 
-    void display(String type, String loved) {
-        System.out.println("Father loved:" + type + " " + loved);
+    void display(String Type, String Tea) {
+        System.out.println("Father loved:" + Type + " " + Tea);
     }
 }
 
 class Son extends Father {
-    String type;
 
-    void display(String from, String type, String loved) {
-        System.out.println("Son loved:" + from + " " + type + " " + loved);
+    void display(String From, String Type, String Tea) {
+        System.out.println("Son loved:" + From + " " + Type + " " + Tea);
     }
 }
