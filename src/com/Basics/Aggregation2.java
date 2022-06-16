@@ -2,10 +2,10 @@ package com.Basics;
 
 public class Aggregation2 {
     public static void main(String[] args) {
-        Address adder1 = new Address("Nepal", 2, "Dhanusha");
-        Address addr2 = new Address("Nepal", 5, "Rupandehi");
-        Students s1 = new Students(15, "Md", adder1);
-        Students s2 = new Students(25, "Arjun", addr2);
+        Address address1 = new Address("Nepal", 2, "Dhanusha");
+        Address address2 = new Address("Nepal", 5, "Rupandehi");
+        Students s1 = new Students(15, "Md", address1);
+        Students s2 = new Students(25, "Arjun", address2);
         s1.get();
         s2.get();
     }
