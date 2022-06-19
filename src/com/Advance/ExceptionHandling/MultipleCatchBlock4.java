@@ -20,4 +20,4 @@ public class MultipleCatchBlock4 {
         System.out.println("rest of the code.");
     }
 }
-// remember that if order of exception is not maintained then the compile time error will be thrown.
+// remember that if order of exception is not maintained then the 'compile time error' will be thrown.
