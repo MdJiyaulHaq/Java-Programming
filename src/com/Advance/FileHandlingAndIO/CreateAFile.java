@@ -4,8 +4,12 @@ import java.io.File;
 import java.io.IOException;
 
 public class CreateAFile {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         File file = new File("example.txt");
-        file.createNewFile();
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
