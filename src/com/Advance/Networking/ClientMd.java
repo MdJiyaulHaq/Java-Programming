@@ -8,7 +8,7 @@ public class ClientMd {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("localhost", 6666);
         DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-        dataOutputStream.writeUTF("Hello this client Md.");
+        dataOutputStream.writeUTF("Hello this is client Md.");
         dataOutputStream.flush();
         dataOutputStream.close();
         socket.close();
