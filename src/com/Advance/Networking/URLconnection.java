@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class URLconnectionClass {
+public class URLconnection {
     public static void main(String[] args) throws Exception {
         try {
             URL url = new URL("https://codekavya.com/");
