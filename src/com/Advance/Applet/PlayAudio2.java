@@ -25,6 +25,10 @@ public class PlayAudio2 extends Applet implements ActionListener {
         stop.addActionListener(this);
     }
 
+    public void stop() {
+        sound.stop();
+    }
+
     public void actionPerformed(ActionEvent e) {
         String s = e.getActionCommand();
         if ("Play".equals(s))
