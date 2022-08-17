@@ -3,7 +3,7 @@ package com.Advance.AWT;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Exercise1 extends Applet {
+public class FontChange extends Applet {
 
     Label label;
 
