@@ -8,7 +8,7 @@ public class WriteToFile {
         try {
             FileWriter fileWriter = new FileWriter("example.txt");
             fileWriter.write("We surely belong to Allah and to him we shall return.");
-            fileWriter.write("\nBeing with the name of Allah who is most mercyful.");
+            fileWriter.write("\nBeing with the name of Allah who is most merciful.");
             fileWriter.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
